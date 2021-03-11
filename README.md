@@ -2,6 +2,7 @@
 Modified W3School's code for draggable divs to work for elements with margins
 (the original code causes any draggable element with a margin to fly away)
 
+See [here](https://danbatiste.github.io/draggable_div_js/example.html) for a demonstration.
 
 Source for their original code: [https://www.w3schools.com/howto/howto_js_draggable.asp](https://www.w3schools.com/howto/howto_js_draggable.asp)
 
