@@ -1,3 +1,5 @@
+dragElement(document.getElementById("draggable_div"));
+
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   var marginLeft = parseInt(window.getComputedStyle(elmnt).marginLeft.slice(0,-2));
