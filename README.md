@@ -1,5 +1,5 @@
 # draggable_div_js
-Modified W3School's code for draggable divs to work with margins
+Modified W3School's code for draggable divs to work for elements with margins
 (the original code causes any draggable element with a margin to fly away)
 
 
