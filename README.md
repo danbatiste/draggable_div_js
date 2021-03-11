@@ -4,3 +4,7 @@ Modified W3School's code for draggable divs to work for elements with margins
 
 
 Source for their original code: https://www.w3schools.com/howto/howto_js_draggable.asp
+
+
+
+Note: The script must be loaded only after the draggable elements exist. I recommended deferring it to the footer (also reduces FCP and FID).
