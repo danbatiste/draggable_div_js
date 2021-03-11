@@ -1,0 +1,37 @@
+<!-- CSS -->
+<style>
+	#draggable_div {
+    /** Recommended **/
+    position:absolute;
+    /** For demonstration of the bug fix **/
+    margin: 25px;
+    margin-top: 60px;
+    /** Not required **/
+		border: 1px solid limegreen;
+		box-shadow: 2px 1px 10px black;
+		padding: 19px; /** Padding does not affect the bug **/
+		background-color: black;
+		line-height: 1px;
+		color: limegreen;
+    z-index: 100;
+		cursor: move;
+	}
+  /** Not required **/
+	#draggable_div p {
+		color: limegreen;
+		margin-bottom: 1px!important;
+	}
+</style>
+
+<!-- HTML - The draggable div -->
+<div id="draggable_div">
+  <p>This div is draggable and has margins.</p><br>
+  <p>Line #2</p><br>
+  <p>Line #3</p><br>
+  <p>Line #4</p><br>
+</div>
+
+<!-- JS -->
+<!-- Defer the script to the footer. dragElement can only be called after the element exists -->
+<script src="draggable.js"></script>
+<script>dragElement(document.getElementById("draggable_div"));</script>
